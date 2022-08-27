@@ -8,35 +8,47 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header-left-side">
-        <button class="button menu-button" type="button">
-          <img src="asserts/img/btn-burger.svg" alt="Меню" />
-        </button>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="header-left-side">
+          <button class="button menu-button" type="button">
+            <img src="asserts/img/btn-burger.svg" alt="Меню" />
+          </button>
 
-        <button class="button logo-button" type="button">
-          <img src="asserts/img/logo.svg" alt="Логотип" />
-        </button>
-      </div>
+          <button class="button logo-button" type="button">
+            <img src="asserts/img/logo.svg" alt="Логотип" />
+          </button>
+        </div>
 
-      <div class="header-right-side">
-        <button class="button repair-button" type="button">
-          <img
-            src="asserts/img/btn-repair.svg"
-            alt="Оставить заявку на ремонт"
-          />
-        </button>
+        <div class="header-right-side">
+          <button class="button button-tablet call-button" type="button">
+            <img src="asserts/img/call.svg" alt="Позвонить" />
+          </button>
 
-        <button class="button check-status-button" type="button">
-          <img
-            src="asserts/img/btn-checkStatus.svg"
-            alt="Узнать статус ремонта"
-          />
-        </button>
-      </div>
-    </header>
+          <button class="button button-tablet chat-button" type="button">
+            <img src="asserts/img/chat.svg" alt="Открыть чат" />
+          </button>
 
-    <main>
+          <button class="button button-tablet profile-button" type="button">
+            <img src="asserts/img/profile.svg" alt="Открыть профиль" />
+          </button>
+
+          <button class="button repair-button" type="button">
+            <img
+              src="asserts/img/btn-repair.svg"
+              alt="Оставить заявку на ремонт"
+            />
+          </button>
+
+          <button class="button check-status-button" type="button">
+            <img
+              src="asserts/img/btn-checkStatus.svg"
+              alt="Узнать статус ремонта"
+            />
+          </button>
+        </div>
+      </header>
+
       <h1 class="title__text">Услуги и сервисы</h1>
 
       <nav class="navigation">
@@ -48,33 +60,35 @@
         <li><a href="#" class="link">Отзывы</a></li>
       </nav>
 
-      <article class="about">
-        <p class="about__text">
-          Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-          Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-          гарантией производителя.
-          <br />
-          <br />
-          Мы успешно работаем с 1992 года и заслужили репутацию надежного
-          партнера, что подтверждает большое количество постоянных клиентов. Мы
-          гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
-          советуют нас родным и близким.
-        </p>
-        <div class="read-more">
-          <img
-            class="read-more__btn"
-            src="asserts/img/btn-expand.svg"
-            alt="Читать далее"
-          />
-          <a href="#" class="read-more__text">Читать далее</a>
-        </div>
-      </article>
+      <section class="about-wrapper">
+        <article class="about">
+          <p class="about__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+            <br />
+            <br />
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера, что подтверждает большое количество постоянных клиентов.
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+            очередь, советуют нас родным и близким.
+          </p>
+          <div class="read-more">
+            <img
+              class="read-more__btn"
+              src="asserts/img/btn-expand.svg"
+              alt="Читать далее"
+            />
+            <a href="#" class="read-more__text">Читать далее</a>
+          </div>
+        </article>
 
-      <img
-        class="cps-photo"
-        src="asserts/img/cps.jpg"
-        alt="Фото входной двери компании"
-      />
-    </main>
+        <img
+          class="cps-photo"
+          src="asserts/img/cps.jpg"
+          alt="Фото входной двери компании"
+        />
+      </section>
+    </div>
   </body>
 </html>
