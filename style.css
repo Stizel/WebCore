@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url("asserts/fonts/TTLakes-Regular.woff");
+}
+
+@font-face {
+  font-family: "TTLakes-Medium";
+  src: url("asserts/fonts/TTLakes-Medium.woff");
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url("asserts/fonts/TTLakes-Bold.woff");
+}
+/* //////////////////////////////////////////////////////////////////// */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  min-width: 320px;
+}
+
+/* ////////////////////////////////   HEADER   //////////////////////////////////// */
+
+.header {
+  background-color: #fff;
+  padding: 0;
+  min-height: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-left-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-right-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-left-side::after {
+  content: url("asserts/img/divider.svg");
+  margin: 0 20px;
+  display: block;
+}
+.button {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+.menu-button {
+  margin: 0 16px;
+}
+.check-status-button {
+  margin: 0 16px;
+}
+
+/* ////////////////////////////////   TITLE   //////////////////////////////////// */
+
+h1 {
+  color: #1b1c21;
+  font-family: TTLakes-Bold, sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+}
+.title__text {
+  margin-left: 16px;
+}
+.title__text::before {
+  content: url("asserts/img/highlight.svg");
+  position: absolute;
+  left: 0;
+}
+
+/* ////////////////////////////////   NAVIGATION   //////////////////////////////////// */
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: scroll;
+}
+li {
+  list-style-type: none;
+}
+
+.link {
+  color: #7e7e82;
+  font-family: TTLakes-Medium, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  margin-left: 15px;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.link:hover {
+  border: 2px solid #b8ffec;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 6px 14px;
+}
+
+/* ////////////////////////////////   ABOUT   //////////////////////////////////// */
+
+.about {
+  font-family: TTLakes-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.about__text {
+  margin: 24px 20px 15px 20px;
+  max-height: 90px;
+  overflow: hidden;
+}
+
+.read-more {
+  margin: 0 20px 15px 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.read-more__text {
+  font-family: TTLakes-Regular, sans-serif;
+  color: #1b1c21;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 6px;
+}
+
+.cps-photo {
+  max-width: 320px;
+}
