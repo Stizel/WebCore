@@ -1,0 +1,63 @@
+.about {
+  font-family: TTLakes-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.about__text {
+  margin: 24px 0px 15px 0px;
+  max-height: 90px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .about__text {
+    min-width: 305px;
+    max-height: 160px;
+    margin-right: 48px;
+  }
+}
+
+.read-more {
+  font-family: TTLakes-Regular, sans-serif;
+  color: #1b1c21;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.read-more::before {
+  content: url("../assets/img/btn-expand.svg");
+  transform: translate(-1px, 1px);
+}
+
+.about__img {
+  width: 100vw;
+  margin: 0 -16px;
+  margin-top: 15px;
+  min-width: 320px;
+}
+@media (min-width: 768px) {
+  .about__img {
+    min-width: 360px;
+    max-width: 360px;
+    margin-top: 24px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1120px) {
+  .about__img {
+    min-width: 531px;
+    margin-top: 24px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

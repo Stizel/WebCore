@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url("assets/fonts/TTLakes-Regular.woff");
+}
+
+@font-face {
+  font-family: "TTLakes-Medium";
+  src: url("assets/fonts/TTLakes-Medium.woff");
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url("assets/fonts/TTLakes-Bold.woff");
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+  min-width: 320px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: 0 16px;
+}
+@media (min-width: 768px) {
+  .page {
+    margin: 0 24px;
+  }
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
