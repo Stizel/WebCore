@@ -45,9 +45,10 @@ ul {
   border: none;
   background-color: inherit;
   cursor: pointer;
-  transition: transform 1s;
+  transition: transform 2s, filter 2s;
 }
 
 .button:hover {
+  filter: drop-shadow(0 0 10px gray);
   transform: scale(1.2);
 }
