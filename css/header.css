@@ -35,7 +35,7 @@
 }
 @media (min-width: 768px) {
   .header__left-side::after {
-    display: none;
+    transform: translateX(-140px);
   }
 }
 
@@ -57,21 +57,15 @@
 }
 @media (min-width: 768px) {
   .header__menu-button {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 768px) {
-  .divider::after {
-    content: url("../assets/img/divider.svg");
-    margin: 0 20px;
+    margin-right: 42px;
   }
 }
 
-.contacts {
+.contact-us {
   display: none;
 }
 @media (min-width: 768px) {
-  .contacts {
+  .contact-us {
     display: flex;
   }
 }

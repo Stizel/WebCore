@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TTLakes-Regular";
-  src: url("assets/fonts/TTLakes-Regular.woff");
+  src: url("../assets/fonts/TTLakes-Regular.woff");
 }
 
 @font-face {
   font-family: "TTLakes-Medium";
-  src: url("assets/fonts/TTLakes-Medium.woff");
+  src: url("../assets/fonts/TTLakes-Medium.woff");
 }
 
 @font-face {
   font-family: "TTLakes-Bold";
-  src: url("assets/fonts/TTLakes-Bold.woff");
+  src: url("../assets/fonts/TTLakes-Bold.woff");
 }
 html {
   box-sizing: border-box;
@@ -45,10 +45,10 @@ ul {
   border: none;
   background-color: inherit;
   cursor: pointer;
-  transition: transform 2s, filter 2s;
 }
 
 .button:hover {
   filter: drop-shadow(0 0 10px gray);
-  transform: scale(1.2);
+  transform: scale(1.1);
+  transition: transform 1s, filter 1s;
 }

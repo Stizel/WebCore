@@ -8,3 +8,8 @@
 @import url("navigation.css");
 /* //////////   ABOUT   //////////*/
 @import url("about.css");
+/* //////////   SIDE-MENU   //////////*/
+@import url("side-menu.css");
+@import url("sm-header.css");
+@import url("sm-main.css");
+@import url("sm-footer.css");
