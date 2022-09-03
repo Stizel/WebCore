@@ -22,12 +22,6 @@
   background-color: #ffffff;
 }
 
-/* button:not(.lang__button):hover {
-  filter: hue-rotate(-105deg);
-  transform: scale(1.5);
-  transition: ease 1s;
-} */
-
 .click {
   cursor: pointer;
 }

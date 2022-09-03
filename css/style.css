@@ -1,14 +1,9 @@
-/* //////////   NORMALIZE   //////////*/
 @import url("normalize.css");
-/* //////////   HEADER   //////////*/
+@import url("fonts.css");
 @import url("header.css");
-/* //////////   TITLE   //////////*/
 @import url("title.css");
-/* //////////   NAVIGATION   //////////*/
 @import url("navigation.css");
-/* //////////   ABOUT   //////////*/
 @import url("about.css");
-/* //////////   SIDE-MENU   //////////*/
 @import url("side-menu.css");
 @import url("sm-header.css");
 @import url("sm-main.css");

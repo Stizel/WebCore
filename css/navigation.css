@@ -1,4 +1,4 @@
-.navigation__list {
+.navigation {
   width: 100vw;
   margin: 0 -16px;
   line-height: 40px;
@@ -8,12 +8,12 @@
   overflow: scroll;
 }
 @media (min-width: 768px) {
-  .navigation__list {
+  .navigation {
     margin: 0 -24px;
   }
 }
 @media (min-width: 1120px) {
-  .navigation__list {
+  .navigation {
     width: auto;
     margin: 0;
     overflow: hidden;
@@ -22,16 +22,16 @@
   }
 }
 
-.navigation__list-item:first-child {
+.navigation__item:first-child {
   margin-left: 16px;
 }
 @media (min-width: 768px) {
-  .navigation__list-item:first-child {
+  .navigation__item:first-child {
     margin-left: 24px;
   }
 }
 @media (min-width: 1120px) {
-  .navigation__list-item:first-child {
+  .navigation__item:first-child {
     margin-left: 0px;
   }
 }

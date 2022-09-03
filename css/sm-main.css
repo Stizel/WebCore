@@ -8,27 +8,25 @@
   font-size: 16px;
   line-height: 24px;
 }
-
-.side-navigation__list {
+.side-nav__item {
   height: 58px;
   display: flex;
   padding: 16px 0;
 }
-.side-navigation__list--active::before {
+.side-nav__item--active::before {
   content: url(../assets/img/highlight--side-menu.svg);
   align-self: center;
   position: absolute;
   left: 0;
 }
 
-.side-navigation__link {
+.side-nav__link {
   display: block;
+  width: 100%;
   color: #1b1c21;
   text-decoration: none;
 }
-.side-navigation__link--active {
-  color: #7e7e82;
-}
-.side-navigation__link:hover {
+.side-nav__link--active,
+.side-nav__link:hover {
   color: #7e7e82;
 }
