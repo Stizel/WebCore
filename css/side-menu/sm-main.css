@@ -14,7 +14,7 @@
   padding: 16px 0;
 }
 .side-nav__item--active::before {
-  content: url(../assets/img/highlight--side-menu.svg);
+  content: url(../../assets/img/icons/highlight--side-menu.svg);
   align-self: center;
   position: absolute;
   left: 0;

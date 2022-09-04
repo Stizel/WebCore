@@ -5,7 +5,7 @@
   line-height: 40px;
 }
 .title__text::before {
-  content: url("../assets/img/highlight.svg");
+  content: url("../../assets/img/icons/highlight.svg");
   position: absolute;
   left: 0;
 }

@@ -1,0 +1,14 @@
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  background: #dddddd;
+}
+.swiper-pagination-bullet-active {
+  background: #b5b6bc;
+}
+@media (min-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+}

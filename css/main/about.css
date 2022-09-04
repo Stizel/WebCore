@@ -17,22 +17,6 @@
   }
 }
 
-.read-more {
-  font-family: TTLakes-Regular, sans-serif;
-  color: #1b1c21;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.read-more::before {
-  content: url("../assets/img/btn-expand.svg");
-  transform: translate(-1px, 1px);
-}
-
 .about__img {
   width: 100vw;
   margin: 0 -16px;

@@ -29,7 +29,7 @@
 }
 
 .header__left-side::after {
-  content: url("../assets/img/divider.svg");
+  content: url("../../assets/img/icons/divider.svg");
   margin: 0 20px;
   display: block;
 }
@@ -79,7 +79,7 @@
 }
 @media (min-width: 768px) {
   .repair::before {
-    content: url("../assets/img/divider.svg");
+    content: url("../../assets/img/icons/divider.svg");
     margin: 0 20px;
     transform: translateY(4px);
   }
