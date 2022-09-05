@@ -95,11 +95,11 @@
   text-decoration: none;
 }
 
-.brands__show {
+.brands__expand {
   display: none;
 }
 @media (min-width: 768px) {
-  .brands__show {
+  .brands__expand {
     display: block;
     margin-bottom: 34px;
   }
