@@ -16,6 +16,9 @@
     margin-right: 48px;
   }
 }
+.about__text--open {
+  max-height: fit-content;
+}
 
 .about__img {
   width: 100vw;

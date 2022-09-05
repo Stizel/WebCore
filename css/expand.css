@@ -13,6 +13,6 @@
   transform: translate(-1px, 1px);
 }
 
-.brands__expand--close::before {
+.expand--close::before {
   content: url("../assets/img/icons/hide.svg");
 }
