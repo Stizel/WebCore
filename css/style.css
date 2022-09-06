@@ -9,6 +9,4 @@
 @import url("side-menu/sm-header.css");
 @import url("side-menu/sm-main.css");
 @import url("side-menu/sm-footer.css");
-@import url("slider/slider.css");
-@import url("slider/slider-header.css");
-@import url("slider/slider-pagination.css");
+@import url("gallery/gallery.css");

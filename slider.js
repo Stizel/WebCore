@@ -2,10 +2,9 @@ let swiper = Swiper;
 let init = false;
 
 let swiperMode = () => {
-   let mobile = window.matchMedia('(min-width: 0px) and (max-width: 767px)');
+   let mobile = window.matchMedia('(max-width: 767px)');
 
-    if(mobile.matches) {
-         if (!init) {
+    if(mobile.matches && !init) {
              init = true;
              swiper = new Swiper('.swiper', {
                 slidesPerView: "auto",
@@ -15,20 +14,14 @@ let swiperMode = () => {
                     el: '.swiper-pagination',
                     clickable:true,
                   },
-                on: {
-                    init: function () {
-                      console.log('swiper initialized');
-                    },
-                  },
-             });
-         }
-     }
-     else if (!mobile.matches && init)  {
+             });  
+    }
+    if (!mobile.matches && init) {
          swiper.destroy(true,true);
        init = false;
-       console.log("swiper destroyed")
      }
   }
 
-window.onload = () => swiperMode();
-window.onresize = () => swiperMode();
+arr = ["load", "resize"];
+arr.forEach(el => window.addEventListener(el,()=>swiperMode()));  
+
